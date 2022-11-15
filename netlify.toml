@@ -5,8 +5,8 @@
   GO_VERSION = "1.18"
 
 [template.environment]
-BUTTERCMS_API_TOKEN = "BUTTERCMS_API_TOKEN: Paste your ButterCMS secret token here"
-BUTTERCMS_PREVIEW = "BUTTERCMS_PREVIEW: Set this value to `true` to show draft content and `false` to hide"
+BUTTERCMS_API_TOKEN = "b362c2f0d01fd310d1bca1ff9ce1160a2f0deb0e"
+BUTTERCMS_PREVIEW = "true"
 
 [template.build]
   command = "go run github.com/ButterCMS/hugo-starter-buttercms/prebuild && hugo"
